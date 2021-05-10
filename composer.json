@@ -1,0 +1,25 @@
+{
+    "name": "bluntk/formvalidatior",
+    "description": "A PHP Class Makes Form Validations Easy",
+    "keywords": ["form","validation"],
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "kivancagaogluu",
+            "email": "kivancagaoglu@outlook.com.tr"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.4"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^8.5 || ^9.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "bluntk\\": "src"
+        }
+    }
+}
