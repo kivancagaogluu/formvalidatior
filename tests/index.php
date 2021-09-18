@@ -43,7 +43,7 @@ $validatior->formData = $_POST;
 
 if($validatior->validate()){
 
-    // Everything is ok. You post values is here
+    // Everything is ok. Form values is on data
 
     $data = $validatior->returnData();
 
